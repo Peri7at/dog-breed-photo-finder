@@ -1,7 +1,7 @@
 # dogs
 
 This project is a Node.js web server using the Koa framework. There is also a
-plain web page, located in `/web`, which will be used as the UI.
+plain web page, located in `/public`, which will be used as the UI.
 
 Relevant documentation:
 
