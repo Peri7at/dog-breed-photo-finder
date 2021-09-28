@@ -35,3 +35,7 @@ If the server starts successfully, you will see this:
 ```sh
 Server running on http://localhost:3011
 ```
+
+Visiting this URL, you should see "hello!"
+
+This is just a sample output. You will need to change this to serve the static assets. https://koajs.com/ is the best place to read up on how to do this.
