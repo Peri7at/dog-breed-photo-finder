@@ -10,7 +10,7 @@ Relevant documentation:
 - @koa/router: https://github.com/koajs/router#koarouter
 - koa-body: https://github.com/dlau/koa-body#usage-with-koa-router
 - Dogs API: https://dog.ceo/dog-api/breeds-list
-- Cat fact API: https://catfact.ninja/
+- Bored API: https://www.boredapi.com/
 
 ## Getting started
 
