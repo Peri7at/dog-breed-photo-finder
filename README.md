@@ -33,7 +33,10 @@ Server running on http://localhost:3011
 Visiting this URL, you should see "hello!"
 
 This is just a sample output. You will need to change this to serve the static
-assets. https://koajs.com/ is the best place to read up on how to do this.
+assets. https://koajs.com/ is the best place to read up on how to do this. Please
+do this part. It makes it easier for us to run it locally. I have a feeling that
+most people don't read this, so if you do read this, include "apple pie" at
+the end of your email when submitting the project.
 
 ## Documentation
 
