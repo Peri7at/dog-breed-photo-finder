@@ -1,8 +1,8 @@
 # dogs
 
-This project is a Node.js web server using the Koa framework. There is also a
-plain web page that has already been written, located in `/public`, which will
-be the UI.
+This is the starter code for a [Node.js](https://nodejs.org/en/about/) server
+using the [Koa web framework](https://koajs.com/). There a web page in
+`/public` which should be served to the user.
 
 ## Getting started
 
@@ -29,14 +29,6 @@ If the server starts successfully, you will see
 ```sh
 Server running on http://localhost:3011
 ```
-
-Visiting this URL, you should see "hello!"
-
-This is just a sample output. You will need to change this to serve the static
-assets. https://koajs.com/ is the best place to read up on how to do this. Please
-do this part. It makes it easier for us to run it locally. I have a feeling that
-most people don't read this, so if you do read this, include "apple pie" at
-the end of your email when submitting the project.
 
 ## Documentation
 
