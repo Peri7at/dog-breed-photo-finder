@@ -8,20 +8,20 @@ using the [Koa web framework](https://koajs.com/). There a web page in
 
 You will need to install Node.js.
 
-For best results, use [**Node.js >= 16**](https://nodejs.org/).
+For best results, use [Node.js 16 or higher](https://nodejs.org/).
 
-You can check your current version of Node.js like this:
+You can check your current version of Node.js with
 
 ```sh
 $ node --version
-v16.13.1
+v16.17.0
 ```
 
 Then, inside this project, run
 
 ```sh
 npm install
-node index.js
+node server.js
 ```
 
 If the server starts successfully, you will see
@@ -29,6 +29,8 @@ If the server starts successfully, you will see
 ```sh
 Server running on http://localhost:3011
 ```
+
+in the terminal.
 
 ## Documentation
 
