@@ -1,8 +1,26 @@
-<div class="container col-md-6 col-md-offset-3 text-center">
-  <h1>🐕 Lots of dogs! 🐕</h1>
-  <p>See photos of your favorite dogs</p>
-  <form method="GET" action="http://localhost:3011/pictures">
-    <input type="text" name="breed" placeholder="Enter a dog breed" />
-    <button type="submit" id="btn">Fetch</button>
-  </form>
+<div
+  class="bg-image"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/423/838/non_2x/cute-dog-puppy-cartoon-doodle-seamless-pattern-background-wallpaper-free-vector.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+  "
+></div>
+<div class="pt-5 mt-5"></div>
+<div class="container col-md-6 col-md-offset-3 text-center mt-5">
+  <div class="card pt-5 pb-5">
+    <h1>🐕 Lots of dogs! 🐕</h1>
+    <p>See photos of your favorite dogs</p>
+    <form method="GET" action="http://localhost:3011/pictures">
+      <input type="text" name="breed" placeholder="Enter a dog breed" />
+      <button type="submit" id="btn">Fetch</button>
+    </form>
+  </div>
 </div>
