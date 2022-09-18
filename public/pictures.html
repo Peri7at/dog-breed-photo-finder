@@ -1,12 +1,8 @@
-<div class="row text-center text-lg-start">
+<div class="row">
   <% pictures.forEach(picture => { %>
-  <div class="rounded col-lg-3 col-md-4 col-6">
-    <a href="<%= picture %>" class="d-block mb-4 h-100">
-      <img
-        src="<%= picture %>"
-        class="img-fluid img-thumbnail rounded"
-        alt=""
-      />
+  <div class="rounded col-lg-3">
+    <a href="<%= picture %>" class="d-block mb-4">
+      <img src="<%= picture %>" class="img-fluid img-thumbnail" alt="" />
     </a>
   </div>
   <% }); %>
