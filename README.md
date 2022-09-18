@@ -1,8 +1,6 @@
-# dogs
+# Dog breed photo finder
 
-This is the starter code for a [Node.js](https://nodejs.org/en/about/) server
-using the [Koa web framework](https://koajs.com/). There a web page in
-`/public` which should be served to the user.
+This is a web application, where you can enter a name of a dog breed and display dog images of that certain breed, developed in [Node.js](https://nodejs.org/en/about/) using the [Koa web framework](https://koajs.com/) for backend, [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [Bootstrap](https://getbootstrap.com) for frontend, and Dog API service for data.
 
 ## Getting started
 
@@ -14,7 +12,7 @@ You can check your current version of Node.js with
 
 ```sh
 $ node --version
-v16.17.0
+v16.13.2
 ```
 
 Then, inside this project, run
@@ -38,3 +36,4 @@ in the terminal.
 - @koa/router: https://github.com/koajs/router#koarouter
 - koa-body: https://github.com/dlau/koa-body#usage-with-koa-router
 - Dogs API: https://dog.ceo/dog-api/breeds-list
+- Bootstrap: https://getbootstrap.com
