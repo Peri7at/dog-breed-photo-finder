@@ -1,33 +1,15 @@
 import fetch from "isomorphic-fetch";
 
-export async function getAllDogs(ctx, next) {
+export async function getDogBreedPics(ctx, next) {
   try {
-    ctx.body = "HEY!";
-  } catch (error) {
-    console.log(error);
-  }
-}
-
-export async function getDogBreeds(ctx, next) {
-  try {
-    const id = "hound"; //ctx.params.id;
+    let breed = ctx.query.breed;
     const apiResponse = await fetch(
-      "https://dog.ceo/api/breed/" + id + "/images/random/3"
+      "https://dog.ceo/api/breed/" + breed + "/images"
     );
     const apiResponseJson = await apiResponse.json();
-    console.log(apiResponseJson);
-    ctx.body = apiResponseJson;
+    let pictures = apiResponseJson.message;
+    await ctx.render("pictures", { pictures });
   } catch (error) {
     console.log(error);
   }
-  // fetch("https://dog.ceo/api/breeds/list/all")
-  //   .then(function (response) {
-  //     if (response.status >= 400) {
-  //       throw new Error("Bad response from server");
-  //     }
-  //     return response.json();
-  //   })
-  //   .then(function (dogBreeds) {
-  //     console.log(dogBreeds);
-  //   });
 }
