@@ -21,7 +21,7 @@ Then, inside this project, run
 
 ```sh
 npm install
-node server.js
+npm start
 ```
 
 If the server starts successfully, you will see
