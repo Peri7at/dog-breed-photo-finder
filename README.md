@@ -1,6 +1,7 @@
 # Dog breed photo finder
 
 This is a web application, where you can enter a name of a dog breed and display dog images of that certain breed, developed in [Node.js](https://nodejs.org/en/about/) using the [Koa web framework](https://koajs.com/) for backend, [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [Bootstrap](https://getbootstrap.com) for frontend, and Dog API service for data.
+[Mocha](https://mochajs.org) with [Chai](https://www.chaijs.com) are used for unit testing.
 
 ## Getting started
 
@@ -43,3 +44,5 @@ npm test
 - koa-body: https://github.com/dlau/koa-body#usage-with-koa-router
 - Dogs API: https://dog.ceo/dog-api/breeds-list
 - Bootstrap: https://getbootstrap.com
+- Mocha: https://mochajs.org
+- Chai: https://www.chaijs.com
