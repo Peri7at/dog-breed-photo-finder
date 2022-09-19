@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "coverage": "nyc report --reporter=json",
+    "test": "nyc mocha */test/*.js",
+    "lint": "eslint *.js test/*.js --fix"
   },
   "type": "module",
   "dependencies": {
@@ -15,6 +18,11 @@
     "koa-ejs": "^4.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "eslint": "^8.23.1",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.20",
+    "nyc": "^15.1.0"
   }
 }
