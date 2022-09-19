@@ -30,6 +30,12 @@ Server running on http://localhost:3011
 
 in the terminal.
 
+To run the test suite
+
+```
+npm test
+```
+
 ## Documentation
 
 - Koa: https://koajs.com/
