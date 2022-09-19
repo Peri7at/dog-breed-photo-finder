@@ -42,6 +42,8 @@ router.get("/", async (ctx) => {
 
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
+
+export default server;
