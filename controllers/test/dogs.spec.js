@@ -44,30 +44,6 @@ describe("Route /breedslist", () => {
 });
 
 describe("Route /pictures", () => {
-  it("Should return error if there is no input for breed name", async (done) => {
-    chai
-      .request(server)
-      .get("/pictures?breed=")
-      .set("content-type", "application/json")
-      .end((err, res) => {
-        expect(res).to.have.status(500);
-        expect(res.body.message).equal("Please enter a dog breed");
-      });
-    done();
-  });
-
-  it("Should return error if the breed name is not found", async (done) => {
-    chai
-      .request(server)
-      .get(`/pictures?breed=${noAvailableBreed}`)
-      .set("content-type", "application/json")
-      .end((err, res) => {
-        expect(res).to.have.status(404);
-        expect(res.body.message).equal("Breed not found");
-      });
-    done();
-  });
-
   it("Should return pictures for certain breed", async (done) => {
     chai
       .request(server)
