@@ -6,7 +6,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('https://static.vecteezy.com/system/resources/previews/003/423/838/non_2x/cute-dog-puppy-cartoon-doodle-seamless-pattern-background-wallpaper-free-vector.jpg');
+    background-image: url('https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?w=2000');
     background-repeat: repeat;
     background-position: center;
     background-size: contain;
@@ -14,13 +14,20 @@
   "
 ></div>
 <div class="pt-5 mt-5"></div>
+<div class="pt-5 mt-5"></div>
 <div class="container col-md-6 col-md-offset-3 text-center mt-5">
-  <div class="card pt-5 pb-5">
-    <h1>🐕 Lots of dogs! 🐕</h1>
-    <p>See photos of your favorite dogs</p>
-    <form method="GET" action="http://localhost:3011/pictures">
-      <input type="text" name="breed" placeholder="Enter a dog breed" />
-      <button type="submit" id="btn">Fetch</button>
-    </form>
-  </div>
+  <!-- <div class="card pt-5 pb-5"> -->
+  <h1>🐕 Lots of dogs! 🐕</h1>
+  <p>See photos of your favorite dogs</p>
+  <form method="GET" action="http://localhost:3011/pictures">
+    <input
+      type="text"
+      name="breed"
+      placeholder="Enter a dog breed"
+      pattern="[A-Za-z ]{2,20}"
+      oninvalid="setCustomValidity('Invalid input: at least 2 characters and alphabets only.')"
+    />
+    <button type="submit" id="btn">Fetch</button>
+  </form>
+  <!-- </div> -->
 </div>
